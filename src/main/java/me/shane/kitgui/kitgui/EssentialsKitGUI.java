@@ -41,7 +41,7 @@ public class EssentialsKitGUI extends JavaPlugin {
         // setup
         getServer().getPluginManager().registerEvents(listener, this);
         getCommand("kit").setExecutor(new me.shane.kitgui.kitgui.Kit());
-        getCommand("kitcfg").setExecutor(new de.marcely.kitgui.command.kitcfg());
+        getCommand("kitcfg").setExecutor(new me.shane.kitgui.kitgui.command.kitcfg());
 
         // load config
         File dir = new File("plugins/Essentials_KitGUI");
